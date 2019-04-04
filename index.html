@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>ss5_task4_timGiaTroLonNhatTrongMang</title>
+</head>
+<body>
+<script>
+    var array = [0,1,2,3,10,5];
+    console.log(array.length);
+    var max = array[0];
+    var indexmax = 0;
+    for (let i = 0; i < array.length; i++) {
+        if (array[i] > max) {
+            max = array[i];
+            indexmax = i;
+        }
+    }
+    document.write(max + ' , ' + indexmax);
+</script>
+</body>
+</html>
